@@ -316,7 +316,8 @@ ul.no-bullets {
   position: relative;
   /* background: linear-gradient(0deg, #b69052 0%, #603001 100%); */
   /* background: linear-gradient(0deg, #313677 0%, #1655b3 100%); */
-  background: url('../img/background.jpg') ;
+  background: url('../img/background.jpg') no-repeat center center;
+  background-size: cover;
   padding: 0;
 }
 
